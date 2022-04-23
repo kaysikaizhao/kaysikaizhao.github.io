@@ -1,0 +1,202 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* cute font 1 */
+    /* @import url(../she-codes-portfolio-project-kaysikaizhao/Font/Sophia/Sophia/Sophia.ttf); */
+
+/* cute font 2 */
+    /* @font-face {
+        font-family: 'berimbauw00-regularregular';
+        src: url(../she-codes-portfolio-project-kaysikaizhao/Font/webfontkit-20220415-215756/berimbau_w00_regular-webfont.woff) format('woff2'),
+            url(../she-codes-portfolio-project-kaysikaizhao/Font/webfontkit-20220415-215756/berimbau_w00_regular-webfont.woff2) format('woff');
+        font-weight: normal;
+        font-style: normal;
+    } */
+
+body {
+    margin: 0;
+}
+
+header {
+    margin-bottom: 16%;
+    height: 80px;
+}
+
+.icon, nav {
+    display: inline;
+}
+
+/* .icon {
+    width: 3%;
+    height: 5%;
+    position: absolute;
+    top: 1.5%;
+    left: 0.5%;
+} */
+
+.icon {
+    float: left;
+    height: 100%;
+    padding-left: 50px;
+}
+
+/* to be edited */
+/* questions: how to use flexbox here? how to make it responsive esp the line-height? */
+.icon a {
+    height: 100%;
+    line-height: 85px;
+}
+
+nav {
+    float: right;
+    height: 100%;
+    padding-right: 20px;
+}
+
+nav a {
+    padding: 0 30px;
+    display: inline-block;
+    height: 100%;
+    line-height: 85px;
+}
+
+/* .links {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 4%;
+    right: 5%;
+} */
+
+section {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    padding: 0;
+    font-size: 80px;
+}
+
+.home-h1::before {
+    content: "A WEB DEVELOPER";
+    padding: 0;
+    
+    /* text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 21px #ff0080, 0 0 41px #ff0080, 0 0 46px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080; */
+    animation: flicker1 3.5s normal;
+}
+
+@keyframes flicker1 {
+    0% {
+        content: "KAY ZHAO";
+        font-weight: 400;
+        text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 21px #ff0080, 0 0 41px #ff0080, 0 0 46px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080;
+    }
+
+    25% {
+        content: "A CAT LOVER";
+        font-weight: 400;
+        text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 21px #ff0080, 0 0 41px #ff0080, 0 0 46px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080;
+    }
+
+    50% {
+        content: "A MINIMALISM FAN";
+        font-weight: 400;
+        text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 21px #ff0080, 0 0 41px #ff0080, 0 0 46px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080;
+    }
+
+    75% {
+        content: "A CODING BUDDY";
+        font-weight: 400;
+        text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 21px #ff0080, 0 0 41px #ff0080, 0 0 46px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080;
+    }
+
+
+}
+
+/* 
+@keyframes flicker {
+        0%, 18%, 22%, 25%, 53%, 57%, 100% {
+            text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px rgb(255, 0, 170),
+            0 0 40px rgb(255, 0, 170),
+            0 0 80px rgb(255, 0, 170),
+            0 0 90px rgb(255, 0, 170),
+            0 0 100px rgb(255, 0, 170),
+            0 0 150px rgb(255, 0, 170),
+            0 0 200px rgb(255, 0, 170),
+            0 0 300px rgb(255, 0, 170);
+        }
+        20%, 24%, 55% {        
+            text-shadow: none;
+        }  
+  }
+   */
+
+footer {
+    color: white;
+}
+
+/* Notes of animations */
+    /* color: white;
+    font-family: "Satisfy", Sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 21px #ff0080, 0 0 41px #ff00f2, 0 0 46px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080; */
+
+
+/* garlic's homepage */
+
+.garlic-home-h1::before {
+    content: "A CAT";
+    padding: 0;
+    
+    /* text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 21px #ff0080, 0 0 41px #ff0080, 0 0 46px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080; */
+    animation: flicker2 3.5s normal;
+}
+
+@keyframes flicker2 {
+    0% {
+        content: "GARLIC ZHAO";
+        font-weight: 400;
+        text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 21px #ff0080, 0 0 41px #ff0080, 0 0 46px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080;
+    }
+
+    25% {
+        content: "A BEEF LOVER";
+        font-weight: 400;
+        text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 21px #ff0080, 0 0 41px #ff0080, 0 0 46px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080;
+    }
+
+    50% {
+        content: "A BASKETBALL FAN";
+        font-weight: 400;
+        text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 21px #ff0080, 0 0 41px #ff0080, 0 0 46px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080;
+    }
+
+    75% {
+        content: "A MEETING BUDDY";
+        font-weight: 400;
+        text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 21px #ff0080, 0 0 41px #ff0080, 0 0 46px #ff0080, 0 0 50px #ff0080, 0 0 75px #ff0080;
+    }
+
+
+}
+
+/* contact page */
+
+.contact-h1 {
+    width: 100%
+}
+
+.contact-h2 {
+    width: 100%;
+}
