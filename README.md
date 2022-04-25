@@ -1,5 +1,5 @@
 # kaysikaizhao.github.io
-Hello, welcome to the repository of Kay's portfolio 👋
+Hello, welcome to Kay's portfolio 👋
 
 ## Overview
 - Submission
@@ -7,8 +7,8 @@ Hello, welcome to the repository of Kay's portfolio 👋
 - Notes
 
 ## Submission
-- A link to the website: ✨https://kaysikaizhao.github.io/✨
-- A link to the repository: ✨https://github.com/kaysikaizhao/kaysikaizhao.github.io✨
+- A link to the website: ✨ https://kaysikaizhao.github.io/ ✨
+- A link to the repository: ✨ https://github.com/kaysikaizhao/kaysikaizhao.github.io ✨ 
 - A folder named "Screenshots" can be found in the repository
   - Home page (includes animations)
   - About
@@ -27,7 +27,7 @@ Content:
 Technical:
 - Have at least 2 web pages ✅
 - Be deployed on GitHub pages ✅
-- Implements responsive design principles - implemented for the "Blog" page (screenshot of the media queries can be found in the "Screenshot" folder in the repository)✅
+- Implements responsive design principles - implemented for the "Blog" page (screenshot of the media queries can be found in the "Screenshot" folder in the repository) ✅
 - Uses semantic HTML ✅
 
 Bonus:
